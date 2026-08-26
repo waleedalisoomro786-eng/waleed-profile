@@ -1,92 +1,283 @@
-<div class="page">
-  <div class="card">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <header class="hero">
-      <div class="wrap">
-        <div class="avatar">W</div>
+  <title>Waleed Ali Soomro | Official Profile</title>
 
-        <div>
-          <h1 class="title">Waleed Ali Soomro</h1>
-          <p class="subtitle">Clean · Professional · Mobile-friendly one-page</p>
-        </div>
-      </div>
-    </header>
+  <meta name="description" content="Official profile of Waleed Ali Soomro. View my professional profile, skills, interests and contact information.">
 
-    <main class="content">
+  <meta name="author" content="Waleed Ali Soomro">
 
-      <div class="intro">
-        <p class="lead">Hello – I'm Waleed Ali Soomro.</p>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
 
-        <div class="actions">
-          <a class="btn" href="mailto:waleedalisoomro786@gmail.com">
-            Get in Touch
-          </a>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f3f6fb;
+      color: #172033;
+    }
 
-          <a class="btn secondary" href="#about">
-            Learn More
-          </a>
-        </div>
-      </div>
+    .page {
+      min-height: 100vh;
+      padding: 28px 16px;
+    }
 
-      <hr class="sep">
+    .card {
+      max-width: 850px;
+      margin: auto;
+      background: #ffffff;
+      border-radius: 22px;
+      overflow: hidden;
+      box-shadow: 0 12px 35px rgba(0,0,0,0.10);
+    }
 
-      <section class="grid">
+    .hero {
+      padding: 30px 24px;
+      background: linear-gradient(135deg, #eaf2ff, #ffffff);
+    }
 
-        <div class="block" id="about">
-          <h3>About</h3>
-          <p class="muted">
-            Welcome to my professional one-page profile.
-          </p>
-        </div>
+    .wrap {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      flex-wrap: wrap;
+    }
 
-        <div class="block">
-          <h3>Skills / Interests</h3>
-          <p class="muted">
-            Professional skills, interests and experience.
-          </p>
-        </div>
+    .avatar {
+      width: 92px;
+      height: 92px;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 4px solid #ffffff;
+      box-shadow: 0 5px 18px rgba(0,0,0,0.15);
+      background: #dfe7f2;
+      flex-shrink: 0;
+    }
 
-        <div class="block">
-          <h3>Contact</h3>
+    .avatar img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
 
-          <div class="email-display">
-            <span class="email-empty">
-              waleedalisoomro786@gmail.com
-            </span>
+    .title {
+      margin: 0 0 7px;
+      font-size: 30px;
+    }
+
+    .subtitle {
+      margin: 0;
+      color: #5c687a;
+    }
+
+    .content {
+      padding: 28px 24px;
+    }
+
+    .lead {
+      font-size: 21px;
+      margin-top: 0;
+    }
+
+    .actions {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 18px;
+      border-radius: 10px;
+      text-decoration: none;
+      background: #1769e0;
+      color: #ffffff;
+      font-weight: 700;
+    }
+
+    .btn.secondary {
+      background: #edf2f8;
+      color: #26364d;
+    }
+
+    .sep {
+      border: 0;
+      border-top: 1px solid #e6eaf0;
+      margin: 28px 0;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 18px;
+    }
+
+    .block {
+      padding: 20px;
+      border: 1px solid #e7ebf1;
+      border-radius: 15px;
+    }
+
+    .block h3,
+    .guide h3 {
+      margin-top: 0;
+    }
+
+    .muted {
+      color: #5d6878;
+      line-height: 1.65;
+    }
+
+    footer {
+      padding: 20px 24px;
+      text-align: center;
+      color: #6b7482;
+      border-top: 1px solid #edf0f4;
+    }
+
+    @media (max-width: 620px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+
+      .title {
+        font-size: 25px;
+      }
+
+      .hero,
+      .content {
+        padding: 22px 18px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="page">
+    <div class="card">
+
+      <header class="hero">
+        <div class="wrap">
+
+          <div class="avatar">
+            <img src="waleed-profile.jpg" alt="Waleed Ali Soomro">
           </div>
 
-          <p class="muted">
-            Feel free to reach out via email.
-          </p>
+          <div>
+            <h1 class="title">Waleed Ali Soomro</h1>
+            <p class="subtitle">
+              Clean · Professional · Mobile-friendly one-page
+            </p>
+          </div>
+
+        </div>
+      </header>
+
+      <main class="content">
+
+        <div class="intro">
+          <p class="lead">Hello - I'm Waleed Ali Soomro.</p>
+
+          <div class="actions">
+            <a class="btn" href="mailto:waleedalisoomro786@gmail.com">
+              Get in Touch
+            </a>
+
+            <a class="btn secondary" href="#about">
+              Learn More
+            </a>
+          </div>
         </div>
 
-        <div class="block">
-          <h3>Share</h3>
-          <p class="muted">
-            You can share this profile page with others easily.
-          </p>
-        </div>
+        <hr class="sep">
 
-      </section>
+        <section class="grid">
 
-      <hr class="sep">
+          <div class="block" id="about">
+            <h3>About</h3>
+            <p class="muted">
+              Welcome to my professional one-page profile.
+            </p>
+          </div>
 
-      <section class="guide">
-        <h3>Quick Guide</h3>
+          <div class="block">
+            <h3>Skills / Interests</h3>
+            <p class="muted">
+              Professional skills, interests and experience.
+            </p>
+          </div>
 
-        <ol class="muted">
-          <li>View my profile information.</li>
-          <li>Check my skills and interests.</li>
-          <li>Contact me by email.</li>
-          <li>Share this page with others.</li>
-        </ol>
-      </section>
+          <div class="block">
+            <h3>Contact</h3>
+            <p>
+              <a href="mailto:waleedalisoomro786@gmail.com">
+                waleedalisoomro786@gmail.com
+              </a>
+            </p>
+            <p class="muted">
+              Feel free to reach out via email.
+            </p>
+          </div>
 
-    </main>
+          <div class="block">
+            <h3>Share</h3>
+            <p class="muted">
+              You can share this profile page with others easily.
+            </p>
 
-    <footer>
-      Made with care — Waleed Ali Soomro
-    </footer>
+            <a
+              class="btn secondary"
+              href="#"
+              onclick="shareProfile(); return false;">
+              Share Profile
+            </a>
+          </div>
 
+        </section>
+
+        <hr class="sep">
+
+        <section class="guide">
+          <h3>Quick Guide</h3>
+
+          <ol class="muted">
+            <li>View my profile information.</li>
+            <li>Check my skills and interests.</li>
+            <li>Contact me by email.</li>
+            <li>Share this page with others.</li>
+          </ol>
+        </section>
+
+      </main>
+
+      <footer>
+        Made with care - Waleed Ali Soomro
+      </footer>
+
+    </div>
   </div>
-</div>
+
+  <script>
+    function shareProfile() {
+      if (navigator.share) {
+        navigator.share({
+          title: "Waleed Ali Soomro",
+          text: "Waleed Ali Soomro - Official Profile",
+          url: window.location.href
+        });
+      } else {
+        navigator.clipboard.writeText(window.location.href);
+        alert("Profile link copied.");
+      }
+    }
+  </script>
+
+</body>
+</html>
